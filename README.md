@@ -6,6 +6,9 @@
 # What it does:
 “Now Watch This” takes a user’s playlist of “To Watch” YouTube videos and finds two videos from the list that add up to the duration of the user’s free time and sends the videos to the user through an HTML newsletter. For example, if you have one hour of free time, the algorithm will find two half-hour long videos, and generate an HTML newsletter from the videos’ titles, durations, links, and thumbnails.
 
+# Who can use this:
+Anyone wishing to use their time in doing other work rather than hovering in Youtube. It's perfect for students who are unwinding from a busy day.
+
 # How we built it:
 This project was built around three major components: a login/submission web page, an algorithm that scrapes data from the playlist and finds the two videos from the list, and a newsletter web page constructed from the two videos’ data. Both web pages were constructed using Flask (Python/HTML) and a small bit of JavaScript, and the algorithm was built in Python.
 
